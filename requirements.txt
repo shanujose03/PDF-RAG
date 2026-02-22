@@ -2,4 +2,6 @@ streamlit
 faiss-cpu
 sentence-transformers
 cohere
+PyPDF2
+torch
 
