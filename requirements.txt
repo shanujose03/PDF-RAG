@@ -1,5 +1,5 @@
-streamlit==1.27.0
-sentence-transformers==2.2.2
-transformers==4.35.0
-huggingface-hub>=0.16.4,<1.0
-torch==2.1.0
+streamlit
+faiss-cpu
+sentence-transformers
+cohere
+
