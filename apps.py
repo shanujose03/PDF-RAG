@@ -40,7 +40,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 # ---------------- COHERE CLIENT ---------------- #
 # SET YOUR KEY IN ENV VARIABLE: COHERE_API_KEY
 import os
-co = cohere.Client(os.getenv("5TP71qxAF6wkvmsQs4B2tk7ZKzR54WObIx4KJgAA"))
+co = cohere.Client("5TP71qxAF6wkvmsQs4B2tk7ZKzR54WObIx4KJgAA")
 
 from sentence_transformers import SentenceTransformer
 from huggingface_hub import snapshot_download
@@ -145,6 +145,7 @@ if uploaded_pdf:
 
         st.subheader("🤖 Answer")
         st.markdown(f"<div class='chat-bubble'>{answer}</div>", unsafe_allow_html=True)
+
 
 
 
